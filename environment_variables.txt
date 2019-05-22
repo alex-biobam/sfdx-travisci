@@ -6,3 +6,5 @@ sfdx force:auth:jwt:grant --clientid $env:CONSUMER_KEY --username $env:HUB_USERN
 
 travis env set CONSUMERKEY "3MVG98_Psg5cppyaXmmOx.RgGxNGrqxF7UxYmdPnWGfXGZJ54vGOiPp6pSk0o0rnIAjHj7Wu_TfZkdMcW8WSW"
 travis env set USERNAME "arocamonde@brave-goat-303763.com"
+
+use --pro flag in every call
