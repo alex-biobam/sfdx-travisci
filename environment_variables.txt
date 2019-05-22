@@ -1,0 +1,8 @@
+$env:CONSUMER_KEY = "3MVG98_Psg5cppyaXmmOx.RgGxNGrqxF7UxYmdPnWGfXGZJ54vGOiPp6pSk0o0rnIAjHj7Wu_TfZkdMcW8WSW"
+$env:JWT_KEY_FILE = "C:\Users\aroca\Documents\certificates\server.key"
+$env:HUB_USERNAME = "arocamonde@brave-goat-303763.com"
+
+sfdx force:auth:jwt:grant --clientid $env:CONSUMER_KEY --username $env:HUB_USERNAME --jwtkeyfile $env:JWT_KEY_FILE --setdefaultdevhubusername
+
+travis env set CONSUMERKEY "3MVG98_Psg5cppyaXmmOx.RgGxNGrqxF7UxYmdPnWGfXGZJ54vGOiPp6pSk0o0rnIAjHj7Wu_TfZkdMcW8WSW"
+travis env set USERNAME "arocamonde@brave-goat-303763.com"
